@@ -1,0 +1,102 @@
+body{
+    max-width: 1440px;
+    margin-top: 55px;
+   
+    
+}
+
+.logo{
+    width: 48px;
+    height: 42px;
+    position: absolute;
+    display: inline-block;
+    padding-left: 55px;
+    padding-top: 38px;
+    top: 35px;
+}
+    
+.logo h1{
+    width: 85px;
+    height: 24px;
+    font-size: 20px;
+    color: black;
+    font-weight: 800;
+    position: absolute;
+    display: inline-block;
+    line-height: 24px;
+}
+
+.logo a ,.logo img, .logo h1{
+    float: left;
+}
+.menu{
+    float: left;
+}
+
+.right-content{
+    float: right;
+
+}
+
+ul{
+    float: left;
+    padding: 0;
+    margin: 0;
+}
+
+.menu ul li {
+    display: inline-block;
+     list-style: none;
+     padding: 15px;
+     
+     
+    
+      }
+
+.menu ul li a {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    color: black;
+    
+}
+
+.menu ul a:hover{
+    background-color:#5BC241 ;
+    color: white;
+}
+
+.btn {
+    background-color: #5BC241;
+    color: white;
+    float: right;
+    text-align: center;
+    padding: 12px;
+    font-size: 15px;
+    border-radius: 10px;
+    margin-left: 35px;
+    margin-right: 74px;
+    
+    
+   
+}
+
+@media(max-width:375px){
+.logo, .menu ul li {
+    display: block;
+    text-align: center;
+    float:none ;
+    
+}
+    .btn {
+        float: none;
+        display: block;
+        
+
+    } 
+
+}
+
+
+

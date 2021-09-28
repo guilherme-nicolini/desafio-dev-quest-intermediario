@@ -1,0 +1,142 @@
+*{
+    font-family: 'Public Sans', sans-serif;
+    background-color: #181D29;
+    color: #FFFFFF;
+   
+}
+
+body{
+    width: 1440px;
+}
+div{
+    display: inline-block;
+    text-align: center;
+    padding-left: 100px;
+ }
+
+ul {
+    list-style: none;
+    position: absolute;
+   
+  
+}
+h2 {
+    font-size: 29px;
+}
+
+ p{
+    font-family: Public Sans;
+font-size: 19px;
+font-style: normal;
+font-weight: 300;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: center;
+
+     
+ }
+ 
+ .html img{
+    height: 87px;
+    width: 78px;
+    left: 275px;
+    top: 82px;
+   
+ }
+
+ .html p{
+    height: 66px;
+    width: 288px;
+    left: 169px;
+    top: 238px;
+    
+    
+ }
+
+ .css img{
+    height: 87px;
+    width: 78px;
+    left: 681px;
+    top: 82px;
+ }
+ .css p{
+    height: 66px;
+    width: 288px;
+    left: 575px;
+    top: 238px;
+   
+    
+ }
+
+ .javaScript img{
+    height: 103px;
+    width: 87px;
+    left: 1087px;
+    top: 72px;
+     }
+     .javaScript p{
+        height: 66px;
+        width: 288px;
+        left: 986px;
+        top: 238px;
+       }
+    
+
+.react img{
+    height: 91px;
+    width: 95px;
+    left: 267px;
+    top: 375px;
+}
+.react p{
+    height: 66px;
+width: 288px;
+left: 169px;
+top: 524px;
+
+
+}
+
+.docker img{
+    height: 78px;
+    width: 125px;
+    left: 657px;
+     top: 366px;
+}
+.docker p{
+    height: 66px;
+width: 288px;
+left: 575px;
+top: 524px;
+
+}
+.sass img{
+height: 98px;
+width: 87px;
+left: 348px;
+top: -491px;
+}
+.sass p{
+    height: 66px;
+    width: 288px;
+    left: 247px;
+    top: -322px;
+    
+    
+}
+
+.react, .sass, .docker{
+   padding-top: 50px;
+}
+
+@media(max-width:375px){
+    div{
+      
+        margin: auto;
+        padding: 20px;
+        text-align: center;
+        
+    }
+
+
+}
